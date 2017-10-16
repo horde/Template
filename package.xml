@@ -16,7 +16,7 @@
   <email>slusarz@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2016-02-02</date>
+ <date>2017-10-17</date>
  <version>
   <release>2.0.4</release>
   <api>1.0.0</api>
@@ -31,13 +31,6 @@
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
-   <dir name="doc">
-    <dir name="Horde">
-     <dir name="Template">
-      <file name="COPYING" role="doc" />
-     </dir> <!-- /doc/Horde/Template -->
-    </dir> <!-- /doc/Horde -->
-   </dir> <!-- /doc -->
    <dir name="lib">
     <dir name="Horde">
      <file name="Template.php" role="php" />
@@ -53,6 +46,7 @@
      </dir> <!-- /test/Horde/Template -->
     </dir> <!-- /test/Horde -->
    </dir> <!-- /test -->
+   <file name="LICENSE" role="doc" />
   </dir> <!-- / -->
  </contents>
  <dependencies>
@@ -78,8 +72,8 @@
  </dependencies>
  <phprelease>
   <filelist>
-   <install as="COPYING" name="doc/Horde/Template/COPYING" />
    <install as="Horde/Template.php" name="lib/Horde/Template.php" />
+   <install as="LICENSE" name="LICENSE" />
    <install as="Horde/Template/AllTests.php" name="test/Horde/Template/AllTests.php" />
    <install as="Horde/Template/bootstrap.php" name="test/Horde/Template/bootstrap.php" />
    <install as="Horde/Template/phpunit.xml" name="test/Horde/Template/phpunit.xml" />
@@ -293,7 +287,7 @@ Initial release as a PEAR package
    <stability>
     <release>stable</release>
     <api>stable</api></stability>
-   <date>2016-02-02</date>
+   <date>2017-10-17</date>
    <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
    <notes>
 * 
