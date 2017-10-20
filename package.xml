@@ -16,7 +16,7 @@
   <email>slusarz@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2017-10-17</date>
+ <date>2017-10-20</date>
  <version>
   <release>2.0.4</release>
   <api>1.0.0</api>
@@ -41,7 +41,6 @@
      <dir name="Template">
       <file name="AllTests.php" role="test" />
       <file name="bootstrap.php" role="test" />
-      <file name="phpunit.xml" role="test" />
       <file name="TemplateTest.php" role="test" />
      </dir> <!-- /test/Horde/Template -->
     </dir> <!-- /test/Horde -->
@@ -76,7 +75,6 @@
    <install as="LICENSE" name="LICENSE" />
    <install as="Horde/Template/AllTests.php" name="test/Horde/Template/AllTests.php" />
    <install as="Horde/Template/bootstrap.php" name="test/Horde/Template/bootstrap.php" />
-   <install as="Horde/Template/phpunit.xml" name="test/Horde/Template/phpunit.xml" />
    <install as="Horde/Template/TemplateTest.php" name="test/Horde/Template/TemplateTest.php" />
   </filelist>
  </phprelease>
@@ -287,7 +285,7 @@ Initial release as a PEAR package
    <stability>
     <release>stable</release>
     <api>stable</api></stability>
-   <date>2017-10-17</date>
+   <date>2017-10-20</date>
    <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
    <notes>
 * 
