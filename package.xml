@@ -49,7 +49,6 @@
      <dir name="Template">
       <file name="AllTests.php" role="test" />
       <file name="bootstrap.php" role="test" />
-      <file name="phpunit.xml" role="test" />
       <file name="TemplateTest.php" role="test" />
      </dir> <!-- /test/Horde/Template -->
     </dir> <!-- /test/Horde -->
@@ -84,7 +83,6 @@
    <install as="Horde/Template.php" name="lib/Horde/Template.php" />
    <install as="Horde/Template/AllTests.php" name="test/Horde/Template/AllTests.php" />
    <install as="Horde/Template/bootstrap.php" name="test/Horde/Template/bootstrap.php" />
-   <install as="Horde/Template/phpunit.xml" name="test/Horde/Template/phpunit.xml" />
    <install as="Horde/Template/TemplateTest.php" name="test/Horde/Template/TemplateTest.php" />
   </filelist>
  </phprelease>
