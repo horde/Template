@@ -2,7 +2,7 @@
 id: Template
 name: Template
 full: Template library (deprecated)
-description: >
+description: >-
   Horde Template system. Adapted from bTemplate, by Brian Lozier
   <brian@massassi.net>.
 list: dev
