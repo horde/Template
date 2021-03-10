@@ -8,7 +8,11 @@
  * @package    Template
  * @subpackage UnitTests
  */
-class Horde_Template_TemplateTest extends Horde_Test_Case
+namespace Horde\Template;
+use Horde_Test_Case;
+use Horde_Template;
+
+class TemplateTest extends Horde_Test_Case
 {
     // Associative Array Test
     public function testAssociativeArray()
